@@ -34,9 +34,9 @@ Yes! Responsive Block Visibility Swap allows you to create responsive layouts by
 
 == Screenshots ==
 
-1. Open Editor and Right Sidebar and Select Block (screenshot-1.png)
-2. Open the Advanced settings to access Responsive Block Visibility Swap Controls (screenshot-2.png)
-3. Choose which devices you want to hide this block. Done! (screenshot-3.png)
+1. Open Editor and Right Sidebar and Select Block
+2. Open the Advanced settings to access Responsive Block Visibility Swap Controls
+3. Choose which devices you want to hide this block. Done!
 
 == Changelog ==
 
@@ -45,8 +45,12 @@ Yes! Responsive Block Visibility Swap allows you to create responsive layouts by
 
 == Upgrade Notice ==
 
-No upgrade notice available.
+If you face any problem to install from Wordpress Plugins Respository then follow the below steps
+1.[Go to link](https://github.com/mizan42047/responsive-block-visibility-swap)
+2.Select Latest Released Branch and click on code
+3.Now you will see a Download Zip button
+4.Click on it you will get a zip version of the plugin
 
 == Donate ==
 
-No donate link available.
+Your willingness to donate or help others is truly appreciated and can bring joy to those in need. Thank you for considering it!
