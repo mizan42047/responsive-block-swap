@@ -1,5 +1,5 @@
 === Responsive Block Visibility Swap ===
-Contributors: Mijanur Rahman
+Contributors: mizan42047
 Tags: block, responsive, Gutenberg, visibility, show, hide
 Tested up to: 6.1
 Stable tag: 0.1.0
