@@ -1,5 +1,5 @@
 === Responsive Block Visibility Swap ===
-Contributors: Mijanur Rahman
+Contributors: mizan42047
 Tags: block, responsive, Gutenberg, visibility, show, hide
 Tested up to: 6.1
 Stable tag: 0.1.0
@@ -45,11 +45,11 @@ Yes! Responsive Block Visibility Swap allows you to create responsive layouts by
 
 == Upgrade Notice ==
 
-If you face any problem to install from Wordpress Plugins Respository then follow the below steps
+If you face any problems installing from WordPress Plugins Repository then follow the below steps
 1.[Go to link](https://github.com/mizan42047/responsive-block-visibility-swap)
-2.Select Latest Released Branch and click on code
-3.Now you will see a Download Zip button
-4.Click on it you will get a zip version of the plugin
+2. Select the Latest Released Branch and click on the code
+3. Now you will see a Download Zip button
+4. Click on it you will get a zip version of the plugin
 
 == Donate ==
 
