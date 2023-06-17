@@ -8,7 +8,6 @@
 	"files": [
 		"build",
 		"*.php",
-		"assets",
 		"languages"
 	],
 	"scripts": {
