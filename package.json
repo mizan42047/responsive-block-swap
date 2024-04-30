@@ -1,6 +1,6 @@
 {
 	"name": "responsive-block-swap",
-	"version": "0.1.0",
+	"version": "1.0.3",
 	"description": "Example block scaffolded with Create Block tool.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -22,7 +22,7 @@
 		"publish": "npm run build && npm run make-pot && npm run plugin-zip"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^26.6.0"
+		"@wordpress/scripts": "^27.7.0"
 	},
 	"dependencies": {
 		"classnames": "^2.3.2"

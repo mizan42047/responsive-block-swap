@@ -1,20 +1,13 @@
-import { useSelect } from '@wordpress/data'
-
 export const useDeviceType = () => {
-	const siteEditor = responsiveBlockSwap.screen === "site-editor.php" ? true : false;
-
+	const { useSelect } = wp.data;
 	const { deviceType } = useSelect(
 		select => {
-			return {
-				deviceType: select(
-					siteEditor ? 'core/edit-site' : 'core/edit-post',
-				)?.__experimentalGetPreviewDeviceType() || 'Desktop',
+			const { getDeviceType } = select("core/editor");
+ 			return {
+				deviceType: getDeviceType() || 'Desktop',
 			}
-		},
-		[]
-	)
-	
-	return deviceType || ''
+		})
+	return deviceType;
 }
 
 export default useDeviceType;
