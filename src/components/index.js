@@ -1,16 +1,16 @@
-import { createHigherOrderComponent } from '@wordpress/compose';
-import { InspectorAdvancedControls } from '@wordpress/block-editor';
-import { addFilter } from '@wordpress/hooks';
-import {
-    ToggleControl,
-    __experimentalHeading as Heading,
-    __experimentalText as Text,
-    __experimentalDivider as Divider,
-    __experimentalSpacer as Spacer,
-} from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
-
+const { createHigherOrderComponent } = wp.compose;
+const { addFilter } = wp.hooks;
 const ResponsiveVisibilityControls = createHigherOrderComponent((BlockEdit) => {
+    const { InspectorAdvancedControls } = wp.blockEditor;
+    const {
+        ToggleControl,
+        __experimentalHeading: Heading,
+        __experimentalText: Text,
+        __experimentalDivider: Divider,
+        __experimentalSpacer: Spacer,
+    } = wp.components;
+    
     return (props) => {
         return (
             <>

@@ -1,0 +1,17 @@
+@media (min-width: 1025px) {
+    .responsive-block-swap-hide-desktop {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .responsive-block-swap-hide-tablet {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .responsive-block-swap-hide-mobile {
+        display: none !important;
+    }
+}

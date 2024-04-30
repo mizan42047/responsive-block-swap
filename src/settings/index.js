@@ -1,7 +1,7 @@
-import { addFilter } from '@wordpress/hooks';
-import { createHigherOrderComponent } from '@wordpress/compose';
 import classNames from 'classnames';
 import useDeviceType from '../hooks/useDeviceType';
+const { addFilter } = wp.hooks;
+const { createHigherOrderComponent } = wp.compose;
 
 const ResponsiveBlockSwapVisibilityClass = createHigherOrderComponent(
     (BlockListBlock) => {
@@ -20,11 +20,7 @@ const ResponsiveBlockSwapVisibilityClass = createHigherOrderComponent(
 					'responsive-block-swap-hide-mobile': responsiveBlockSwapHideMobile && device === 'Mobile'
 				}
 			)
-			return (
-                <>
-                    <BlockListBlock {...props} className={className} />
-                </>
-            )
+			return <BlockListBlock {...props} className={className} />
         };
     },
     'ResponsiveBlockSwapVisibilityClass'
